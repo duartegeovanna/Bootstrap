@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+
+    <!-- Link para pegar o estilo CSS dos servidores do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <img src="https://i.imgur.com/85fLFmK.png" href="#" width="90x">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-danger" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="index.html#enredo">ENREDO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="index.html#trailer">TRAILER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="index.html#elenco">ELENCO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="index.html#carouselExampleCaptions">TEMPORADAS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- login form -->
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="https://i.imgur.com/85fLFmK.png" href="#" width="90x">
+            </div>
+            <br>
+
+            <!-- Login Form -->
+            <form class="formLogin">
+                <input type="text" id="usuario" class="fadeIn second" placeholder="e-mail" onkeyup="validarUsuario()">
+                <div id="txtUsuario"></div>
+                <input type="password" id="senha" class="fadeIn third" placeholder="senha" onkeyup="validarSenha()">
+                <div id="txtSenha"></div>
+                <br>
+                <input type="submit" class="fadeIn fourth" value="Entrar" onclick="Entrar()">
+
+            </form>
+            <br>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Esqueceu a senha?</a>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="rodape">
+
+        <h6>Todos os direitos reservados à Geovanna Duarte - Copyright © 2022</h6>
+        <div class="imgRedes" align="center">
+            <a href="https://github.com/duartegeovanna">
+                <img src="https://i.imgur.com/dDHVHNV.png" alt="GitHub" width="32px">
+
+            </a>
+            <a href="https://www.linkedin.com/in/geovannaduarte">
+                <img src="https://i.imgur.com/lDOfK04.png" alt="Linkedin" width="32px">
+            </a>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <!--Scripts necessários para utilização dos códigos JS do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
